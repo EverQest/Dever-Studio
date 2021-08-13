@@ -1,0 +1,24 @@
+{
+  "name": "dever",
+  "version": "1.0.0",
+  "description": "merch shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EverQest/Dever_studio-trying-React.js-.git"
+  },
+  "keywords": [
+    "js",
+    "shop",
+    "scss"
+  ],
+  "author": "Yehor Denysov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EverQest/Dever_studio-trying-React.js-/issues"
+  },
+  "homepage": "https://github.com/EverQest/Dever_studio-trying-React.js-#readme"
+}

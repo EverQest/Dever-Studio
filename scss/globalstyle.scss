@@ -1,0 +1,13 @@
+$img-path: "../souce/bg_mainlogo.png";
+body {
+  margin: 0px;
+  background-color: black;
+  background: url($img-path) no-repeat center center fixed;
+  font-family: "Comfortaa", cursive;
+  background-size: cover;
+  height: 100%;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}

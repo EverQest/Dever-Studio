@@ -1,0 +1,221 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+body {
+  margin: 0px;
+  background-color: rgb(0, 0, 0);
+  font-family: "Comfortaa", cursive;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.preloader {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  z-index: 5;
+  transition: 1s all;
+  opacity: 1;
+  visibility: visible;
+}
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border: rgb(255, 255, 255) solid 5px;
+  border-radius: 50%;
+  border-top: rgb(105, 105, 105) 5px solid;
+  animation: 0.7s spin infinite linear;
+}
+
+.done {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.header_main_item {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+}
+.header_main_item:hover {
+  transition: background-size 0.5s;
+  background-size: 100% 2px;
+}
+.header_main_logo img {
+  width: 200px;
+}
+.header_main_logo {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.header_main {
+  display: flex;
+  justify-content: center;
+}
+.header_main li {
+  display: block;
+  margin: 0px 25px;
+}
+.header_first {
+  border-bottom: 2px white solid;
+}
+header,
+footer {
+  background-color: black;
+  padding-bottom: 5px;
+  z-index: 10;
+  position: relative;
+}
+
+/* ФУТЕР */
+/* .main_footer {
+  background-color: rgb(0, 0, 0);
+}
+.el_ul_footer {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 15px;
+}
+.el_footer {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.5s;
+}
+.el_footer:hover {
+  background-size: 100% 3px;
+}
+.el_ul_footer li {
+  display: block;
+  margin: 0px 25px;
+}
+.main_footer {
+  height: 300px;
+}
+.info_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo_footer img {
+  width: 100px;
+}
+.info_footer {
+  margin: 30px 30px 0px 30px;
+}
+.logo_footer p {
+  color: rgb(255, 255, 255);
+}
+.text_footer div {
+  margin-top: 15px;
+}
+.text_footer {
+  color: white;
+}
+.email_footer {
+  cursor: pointer;
+}
+.email_footer:hover {
+  color: rgb(128, 128, 128);
+  transition: 0.3s;
+}
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 73px;
+  margin-top: 200px;
+}
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+} */
+
+/* //Меин контент */
+
+/* .card_hover {
+  box-shadow: 0px 0px 10px grey;
+  border-radius: 10px;
+  margin: 20px;
+}
+.card_hover:hover {
+  background-color: rgb(83, 83, 83);
+  transition: 1s;
+}
+.card {
+  border-radius: 10px;
+  cursor: pointer;
+}
+.price {
+  background-color: #8e8e8c;
+  display: block;
+  font-size: 35px;
+  font-family: "Amatic SC", cursive;
+}
+.img_card img {
+  width: 330px;
+}
+.container h1 {
+  display: flex;
+  justify-content: center;
+}
+.left_side {
+  padding: 10px;
+  background-color: #8e8e8c;
+  border-radius: 10px 0px 0px;
+}
+.right_side {
+  padding: 10px;
+  background-color: #8e8e8c;
+  border-radius: 0% 0% 50% 0%;
+}
+.price_container {
+  display: flex;
+  flex-direction: row;
+}
+.card_name {
+  display: flex;
+  font-family: "Amatic SC", cursive;
+  justify-content: center;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.flex_direction {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
