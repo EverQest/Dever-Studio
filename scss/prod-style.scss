@@ -5,6 +5,11 @@
 @import "preloaderstyle.scss";
 @import "prod-headerstyle.scss";
 
+%flexcenter {
+  display: flex;
+  justify-content: center;
+}
+
 /* //Меин контент */
 .card_hover {
   box-shadow: 0px 0px 10px grey;
@@ -62,3 +67,22 @@
 }
 // подключаем футер
 @import "prod-footerstyle.scss";
+
+//info-content
+.info_text {
+  @extend %flexcenter;
+  font-size: 25px;
+  padding: 20px;
+  line-height: 50px;
+}
+.info_text_mini {
+  font-size: 15px;
+  padding: 50px;
+}
+.info_text_mini div {
+  margin: 20px;
+  line-height: 30px;
+}
+.bold {
+  font-size: 25px;
+}
